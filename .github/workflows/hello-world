@@ -1,0 +1,10 @@
+name: Hello World Beispiel
+
+on: [push] # Startet den Workflow bei jedem Push in das Repository
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest # Nutzt einen virtuellen Ubuntu-Server von GitHub
+    steps:
+      - name: Text ausgeben
+        run: echo "Hello World" # Führt den Befehl im Terminal aus
