@@ -1,4 +1,4 @@
-nname: Cleanup Workflow Runs
+name: Cleanup Workflow Runs
 on:
   schedule:
     - cron: '* * * * *' # Versucht jede Minute zu laufen
